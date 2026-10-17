@@ -14,7 +14,7 @@ spec:
     spec:
       initContainers:
         - name: wait-for-postgres
-          image: groundnuty/k8s-wait-for:v1.3
+          image: groundnuty/k8s-wait-for:v2.0
           imagePullPolicy: Always
           args:
             - "service"
